@@ -6,8 +6,14 @@
     <title>Edit post</title>
 </head>
 <body>
+    
     <h2>edit your post</h2>
-    <h2></h2>
+    <p>Post id : <%= post.id %> </p>
+    <p>Post Username : <%= post.username %></p>
+    <form>
+        <textarea><%= post.content %></textarea>
+        <button>Submit</button>
+    </form>
     
 </body>
 </html>
